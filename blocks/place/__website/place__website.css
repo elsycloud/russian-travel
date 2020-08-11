@@ -1,0 +1,13 @@
+.place__website {
+    width: 40%;
+    grid-area: weblink;
+    padding-top: 108px;
+    align-self: end;
+}
+
+@media screen and (max-width: 320px) {
+    .place__website {
+        display: none;
+    }
+}
+
