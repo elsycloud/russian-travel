@@ -6,7 +6,7 @@
     font-size: 54px;
     line-height: 58px;
     color: #FFFFFF;
-    padding: 114px 0 0 131px;
+    padding: 92px 0 0 12%;
     margin: 0;
 }
 
@@ -14,13 +14,13 @@
     .intro__title {
         font-size: 3em;
         line-height: 1.2;
-        padding: 114px 0 0 41px;
+        padding: 13% 0 0 41px;
     }
 }
 
 @media screen and (max-width: 768px) {
     .intro__title {
-        padding: 0px 0 0 24px;
+        padding: 10% 0 0 24px;
     }
 }
 
@@ -29,7 +29,6 @@
         padding: 64px 0 0 16px;
         width: 75%;
         max-width: 288px;
-        max-height: 70px;
         font-size: 2em;
         line-height: 1.2;
     }

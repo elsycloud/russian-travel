@@ -1,12 +1,18 @@
 .lead__image {
     max-width: 984px;
-    min-height: 615px;
 }
 
 @media screen and (max-width: 1024px) {
     .lead__image {
-        max-width: 945px;
-        min-height: 580px;
+        max-width: 928px;
+        width: 100%;
+    }
+
+    figure {
+        margin-block-start: 0px;
+        margin-block-end: 0;
+        margin-inline-start: 0;
+        margin-inline-end: 0;
     }
 }
 

@@ -8,6 +8,7 @@
     color: #FFFFFF;
     margin: 0;
     padding-top: 8px;
+    letter-spacing: 0.15em;
 }
 
 @media screen and (max-width: 768px) {
@@ -22,7 +23,6 @@
         max-width: 159px;
         max-height: 14px;
         line-height: 0;
-        letter-spacing: 0.15em;
         padding-left: 16px;
     }
 }

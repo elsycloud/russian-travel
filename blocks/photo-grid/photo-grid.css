@@ -1,7 +1,7 @@
 @import url(./__item/photo-grid__item.css);
 
 .photo-grid {
-    max-width: 90%;
+    max-width: 92%;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(3, 1fr);
@@ -13,7 +13,6 @@
 @media screen and (max-width: 768px) {
     .photo-grid {
         max-width: 95%;
-        display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(6, 1fr);
     }

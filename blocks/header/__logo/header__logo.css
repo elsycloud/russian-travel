@@ -1,19 +1,13 @@
 .header__logo {
-    position: absolute;
     width: 176px;
     height: 52px;
-    left: 48px;
-    top: 28px;
     background-image: url(../../../logo/rtlogo.png);
 }
 
 @media screen and (max-width: 768px) {
     .header__logo {
-        position: absolute;
         width: 176px;
         height: 52px;
-        left: 48px;
-        top: 17px;
     }
 }
 
@@ -22,7 +16,5 @@
         background-size: 100%;
         width: 142px;
         height: 42px;
-        left: 16px;
-        top: 16px;
     }
 }

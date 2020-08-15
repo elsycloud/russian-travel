@@ -6,6 +6,7 @@
 
 .intro {
     width: 60%;
+    font-family: 'Inter', Arial, sans-serif;
 }
 
 @media screen and (max-width: 1024px) {

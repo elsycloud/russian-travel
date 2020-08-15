@@ -9,7 +9,7 @@
 
 @media screen and (max-width: 1024px) {
     .cover__background {
-        object-fit: fill;
+        object-fit: contain;
     }
 }
 

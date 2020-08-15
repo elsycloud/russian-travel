@@ -4,3 +4,25 @@ html { font-family: 'Inter', sans-serif; }
   html { font-family: 'Inter var', sans-serif; }
 }
 
+@font-face {
+  src: url('/Andrew/Inter Desktop/Inter-Regular.otf') format('otf');
+  font-family: 'Inter';
+}
+
+@font-face {
+  src: url('/Andrew/Inter Desktop/Inter-BlackItalic.otf') format('otf');
+  font-family: 'Inter';
+  font-style: 'italic'
+}
+
+@font-face {
+  src: url('/Andrew/Inter Desktop/Inter-Black-Bold.otf') format('otf');
+  font-family: 'Inter';
+  font-style: 'bold'
+}
+
+
+
+
+
+
