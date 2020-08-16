@@ -1,0 +1,17 @@
+.header__lang-list {
+    color: #FFFFFF;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    align-items: flex-end;
+}
+
+@media screen and (max-width: 320px) {
+    .header__lang-list {
+         width: 29%; 
+         
+    }
+
+}
+

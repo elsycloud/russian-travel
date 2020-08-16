@@ -4,10 +4,15 @@
 @import url(./__caption/lead__caption.css);
 
 .lead {
-    font-family: 'Inter', Arial, sans-serif;
+    font-family: 'Inter', 'Arial', sans-serif;
     margin: 0 auto;
     padding: 128px 48px 0 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
 }
+
 
 @media screen and (max-width: 1024px) {
     .lead {
@@ -24,7 +29,7 @@
 
 @media screen and (max-width: 320px) {
     .lead {
-        padding: 15% 8% 0 4%;
+        padding: 15% 0 0 0;
     }
 }
 

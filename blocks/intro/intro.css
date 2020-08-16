@@ -6,7 +6,10 @@
 
 .intro {
     width: 60%;
-    font-family: 'Inter', Arial, sans-serif;
+    font-family: 'Inter', 'Arial', sans-serif;
+    display: contents;
+    align-items: center;
+    justify-content: center;
 }
 
 @media screen and (max-width: 1024px) {

@@ -9,7 +9,7 @@
 .place {
     max-width: 984px;
     display: grid;
-    font-family: 'Inter', Arial, sans-serif;
+    font-family: 'Inter', 'Arial', sans-serif;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 1fr;
     grid-template-areas: "main weblink" "image text";
