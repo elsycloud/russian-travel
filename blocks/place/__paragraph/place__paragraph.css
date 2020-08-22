@@ -1,5 +1,5 @@
 .place__paragraph {
-    max-width: 484px;
+    min-width: 484px;
     font-family: 'Inter', 'Arial', sans-serif;
     font-style: normal;
     font-weight: normal;
@@ -7,30 +7,31 @@
     line-height: 30px;
     color: #FFFFFF;
     margin: 0;
-    grid-area: text;
-    place-self: center;
+    padding-bottom: 24px;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+    .place__paragraph {
+        min-width: 456px;
+    }
 }
    
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1023px) {
     .place__paragraph {
-        padding-top: 48px;
+        min-width: 352px;
+        font-size: 1em;
+        line-height: 1.5;
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
     .place__paragraph {
-        font-family: 'Inter', 'Arial', sans-serif;
-        font-style: normal;
-        font-weight: normal;
         font-size: 1em;
         line-height: 1.5;
-        color: #FFFFFF;
         margin: 0;
-        padding-top: 32px;
-        padding-bottom: 0;
-        padding-left: 5%;
-        max-width: 288px;
-        place-self: inherit;
+        padding-bottom: 24px;
+        padding-left: 16px;
+        min-width: 288px;
     }
 }
 

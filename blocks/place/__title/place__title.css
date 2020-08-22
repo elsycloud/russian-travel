@@ -6,25 +6,33 @@
     line-height: 76px;
     margin: 0;
     color: #FFFFFF;
-    grid-area: main;
-    padding-top: 80px;
-    align-self: end;
+    min-width: 460px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
     .place__title {
-        font-size: 3em;
-        line-height: 1;
+        min-width: 440px;
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .place__title {
+        font-size: 2.5em;
+        line-height: 1;
+        min-width: 340px;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
     .place__title {
         padding-left: 16px;
         font-size: 2em;
-        max-width: 288px;
-        width: 100%;
+        line-height: 1;
+        min-width: 288px;
         padding-top: 48px;
+    }
+    .place__title:first-child {
+        padding-top: 0;
     }
 }
 

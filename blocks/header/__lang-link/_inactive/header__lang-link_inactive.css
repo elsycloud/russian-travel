@@ -9,8 +9,11 @@
     opacity: 0.6;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
     .header__lang-link_inactive {
         font-size: 1.2em;
+        min-width: 22px;
+        min-height: 24px;
+        line-height: 24px;
     }
 }

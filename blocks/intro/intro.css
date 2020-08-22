@@ -7,18 +7,21 @@
 .intro {
     width: 60%;
     font-family: 'Inter', 'Arial', sans-serif;
-    display: contents;
-    align-items: center;
-    justify-content: center;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
     .intro {
         width: 67%;
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .intro {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
     .intro {
         width: 100%;
     }
