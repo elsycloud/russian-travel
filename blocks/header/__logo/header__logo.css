@@ -1,7 +1,7 @@
 .header__logo {
     width: 176px;
     height: 52px;
-    background-image: url(../../../logo/rtlogo.png);
+    background-image: url(../../../logo/logo.svg);
 }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {

@@ -3,12 +3,12 @@
     width: 90%;
     list-style: none;
     padding-top: 32px;
-    padding-left: 12%;
+    padding-left: 148px;
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
     .intro__list {
-        padding-left: 36px;
+        padding-left: 48px;
     }
 }
 

@@ -10,19 +10,23 @@
     font-family: 'Inter', 'Arial', sans-serif;
     margin: 0 auto;
     position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
     .cover {
         min-width: 1024px;
         min-height: 640px;
+   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1023px) {
+@media screen and (max-width: 1023px) and (min-width: 768px) {
     .cover {
         min-width: 768px;
         min-height: 480px;
-    }
+   }
 }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
@@ -31,6 +35,6 @@
         margin-top: 62px;
         min-width: 320px;
         min-height: 200px;
-    }
+   }
 }
 
