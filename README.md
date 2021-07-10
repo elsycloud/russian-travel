@@ -1,10 +1,8 @@
-# Проект 3: Путешествие по России Alt-H1
+# Project Russian Travel
 
-Адаптивная верстка сайта с использованием технологий HTML5 и CSS3.
+### Landing page for Yandex. This project is optimized for mobile & web devices. Created on pure HTML/CSS. 
 
-Проект включает в себя описание местностей по России и разнообразные места, которые можно посетить и насладится живописными видами. 
 
-[Путешествие по России](https://elsycloud.github.io/russian-travel/ "Проект 3")
 
 
 
